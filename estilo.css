@@ -3,4 +3,14 @@
     body{
         font-family: "Playfair Display", serif;
         font-weight: 500;
+        color: aliceblue;
+    }
+
+    body{
+        background-color: rgb(16, 63, 117);
+    }
+
+    .pag-in img{
+        width: 300px;
+        height: 100px;
     }
