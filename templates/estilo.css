@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+    body{
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        color: aliceblue;
+    }
+
+    body{
+        background-image: url(login.jpg);
+        background-size: cover;
+    }
+
+    .pag-in img{
+        width: 300px;
+        animation-name: POMO;
+        animation-duration: 4s;
+        position: relative;
+        animation-iteration-count: infinite;
+        }
+
+        @keyframes POMO {
+            0%   {left:0px; top:0px;}
+            25%  {left:800px; top:0px;}
+            50%  {left:800px; top:200px;}
+            75%  {left:200px; top: 200px;}
+            100% {left:0px; top:0px;}
+          }
